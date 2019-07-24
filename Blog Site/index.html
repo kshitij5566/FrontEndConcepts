@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <link rel="stylesheet" href="./static/assets/styles/bootstrap.min.css">
+    <link rel="stylesheet" href="./static/assets/styles/blogStyle.css">
 
     <title>Kshitij's Blog</title>
 </head>
@@ -30,11 +31,14 @@
                     </li>
                 </ul>
             </div>
-            <div><br></div>
         </nav>
     </header>
 
     <main>
+        <div class="jumbotron">
+            <h1 class="display-4">This is my blog.</h1>
+            <p class="lead">Example text to showcase jumbotron component of bootstrap 4</br></p>
+        </div>
         <div class="container">
             <div class="row justify-content-around">
                 <div class="card" style="width: 18rem;">
@@ -43,7 +47,7 @@
                         <h5 class="card-title">First Blog</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                             the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <a href="./viewBlog.html" class="btn btn-primary">Blog 1</a>
                     </div>
                 </div>
                 <div class="card" style="width: 18rem;">
@@ -68,7 +72,13 @@
         </div>
     </main>
 
-    <footer></footer>
+    <footer class="footer">
+        <div class="container text-center">
+            <span class="text-muted">
+                &copy; 2019, All rights Reserved.
+            </span>
+        </div>
+    </footer>
 
     <!-- scripts -->
     <script src="./static/assets/scripts/jquery-3.4.1.js"></script>
